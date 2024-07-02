@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypt Hunt Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NEHU Crypt Hunt</h1>
+        <div id="welcome-screen">
+            <input type="text" id="name" placeholder="Enter your name" />
+            <button onclick="showRules()">Start Game</button>
+        </div>
+        <div id="rules-screen" style="display: none;">
+            <h2>Welcome <span id="rules-username"></span>!</h2>
+            <p>Instructions</p>
+            <ul>
+                <li>Answer is only a location in NEHU.</li>
+		<li>Please enter the full name of the location.</li>
+                <li>Answer is neither space nor case sensitive.</li>
+		<li>Dont use any special characters.</li>
+            </ul>
+            <button onclick="startGame()">Okay, Start Hunt</button>
+        </div>
+        <div id="game-screen" style="display: none;">
+            <h2 id="username"></h2>
+            <p id="superlative"></p>
+            <img id="game-image" src="" alt="cryptic image" />
+            <input type="text" id="answer" placeholder="Enter your answer" />
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="message"></p>
+        </div>
+        <div id="end-screen" style="display: none;">
+            <h2>Hunt is over! Congratulations!</h2>
+            <img id="end-image" src="" alt="congratulations" />
+	    <button class="submit-button" onclick="window.location.href="https://forms.gle/6pVnV6gNqSEZCcY79">Submit your name in G Form</button>
+        </div>
+    </div>
+	<footer>
+        	<p>Created by Priyanshu ❤️</p>
+	</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
