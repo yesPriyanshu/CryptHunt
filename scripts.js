@@ -1,4 +1,4 @@
-const answers = ["convocation hall", "mithaas", "gate 2", "library", "basketball court", "lake side", "computer centre", "multi use convention hall",  "community hall", "pine breeze", "quick bites"];
+const answers = ["convocation hall", "mithaas", "gate 2", "library", "basketball court", "lake side", "computer centre", "multi use convention hall",  "community hall", "pine breeze", "quick bytes"];
 
 const images = ["1.jpg", "3.jpg", "2.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg"];
 
